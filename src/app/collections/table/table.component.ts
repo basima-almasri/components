@@ -9,5 +9,4 @@ export class TableComponent {
   @Input() data: Array<any> = [];
   @Input() headers: Array<any> = [];
   @Input('class') className = '';
-  constructor() {}
 }
